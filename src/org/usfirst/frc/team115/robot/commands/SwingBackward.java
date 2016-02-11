@@ -17,7 +17,7 @@ public class SwingBackward extends Command{
 	@Override
 	protected void execute() {
 		// TODO Auto-generated method stub
-		Robot.arms.swingBackward();
+		Robot.arms.swingBackward(Robot.oi.getYAxis (),Robot.oi.getXAxis());
 	}
 
 	@Override

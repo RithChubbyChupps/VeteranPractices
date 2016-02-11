@@ -20,7 +20,7 @@ public class SwingForward extends Command{
 	protected void execute() {
 		// TODO Auto-generated method stub
 		if (OI.getForwardsButton()){
-			Robot.arms.swingForward();
+			Robot.arms.swingForward(Robot.oi.getYAxis (),Robot.oi.getXAxis());
 		}
 	}
 
