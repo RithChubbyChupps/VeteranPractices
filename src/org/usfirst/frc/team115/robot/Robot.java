@@ -2,6 +2,7 @@ package org.usfirst.frc.team115.robot;
 
 import org.usfirst.frc.team115.robot.commands.SwingBackward;
 import org.usfirst.frc.team115.robot.subsystems.Arms;
+import org.usfirst.frc.team115.robot.subsystems.Compression;
 import org.usfirst.frc.team115.robot.subsystems.DriveTrain;
 import org.usfirst.frc.team115.robot.subsystems.Pneumatics;
 
@@ -14,12 +15,14 @@ public class Robot extends IterativeRobot{
 		public static DriveTrain drive;
 		public static OI oi;
 		public static Pneumatics pneumatics;
+		public static Compression compression;
 		public static Arms arms;
 	    public void robotInit() {
 	    	oi = new OI();
 	    	drive = new DriveTrain();
 	    	pneumatics = new Pneumatics();
 	    	arms = new Arms();
+	    	compression = new Compression();
 			
 	        // instantiate the command used for the autonomous period
 	    }

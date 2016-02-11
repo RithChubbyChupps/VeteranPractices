@@ -11,6 +11,7 @@ public class Deflate extends Command{
 	protected void initialize() {
 		// TODO Auto-generated method stub
 		requires (Robot.pneumatics);
+		requires (Robot.compression);
 	}
 
 	@Override

@@ -9,6 +9,7 @@ public class RobotMap {
 	//Solenoids for inflation
 	public static final int SOLENOIDA = 3;
 	public static final int SOLENOIDB = 4;
+	public static final int COMPRESSOR = 0;
 	//Arms
 	public static final int RIGHT = 5;
 	public static final int LEFT = 6;
