@@ -2,8 +2,10 @@ package org.usfirst.frc.team115.robot;
 
 public class RobotMap {
 	//drive train
-	public static final int TURN = 0;
-	public static final int DRIVE = 1;
+	public static final int DRIVEA = 1;
+	public static final int DRIVEB = 2;
+	public static final int DRIVEC = 3;
+	public static final int DRIVED = 4;
 	//Solenoids for inflation
 	public static final int SOLENOIDA = 3;
 	public static final int SOLENOIDB = 4;

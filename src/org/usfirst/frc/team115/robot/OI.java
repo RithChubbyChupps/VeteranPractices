@@ -9,6 +9,9 @@ public class OI {
 	public OI(){
 		joystick = new Joystick (RobotMap.JOYSTICK);
 	}
+	public Joystick getJoystick(){
+		return joystick;
+	}
 	public double getYAxis ()
 	{
 		return joystick.getAxis(AxisType.kY);
